@@ -13,11 +13,11 @@ format to tokenize Cantonese phrases.  It will only revert to HMM when the
 phrase is not found in the dictionary. In general, better tokenization can be
 achieved when Jieba is used with a dictionary tailored for a specific discourse.
 
-Use the command line to concatenate a selection of text files to create a bigger
+Use the command line to concatenate a subset of text files to create a bigger
 dictionary.  For example:
 
 ```bash
-	cat hk_street_names.txt golden_dictionary.txt nouns.txt > YOUR_NEW_FILENAME.txt
+cat hk_street_names.txt golden_dictionary.txt nouns.txt > YOUR_NEW_FILENAME.txt
 ```
 
 Please note that dictionaries generated from a specific corpus, i.e. 
